@@ -10,9 +10,13 @@ public class Tips {
 
     /**
      * Aceasta functie afiseaza un text
+     *
      * @param text
      */
     public static void print(String text) {
         System.out.println(text);
+    }
+    public static void print(Integer number) {
+        System.out.println(number);
     }
 }
